@@ -1,0 +1,10 @@
+c:\Users\FIC\Desktop\FabioF\3a semana\s3d2t1\obj\Debug\netcoreapp2.0\s3d2t1.csproj.CoreCompileInputs.cache
+c:\Users\FIC\Desktop\FabioF\3a semana\s3d2t1\obj\Debug\netcoreapp2.0\s3d2t1.AssemblyInfoInputs.cache
+c:\Users\FIC\Desktop\FabioF\3a semana\s3d2t1\obj\Debug\netcoreapp2.0\s3d2t1.AssemblyInfo.cs
+C:\Users\FIC\Desktop\FabioF\3a semana\s3d2t1\bin\Debug\netcoreapp2.0\s3d2t1.deps.json
+C:\Users\FIC\Desktop\FabioF\3a semana\s3d2t1\bin\Debug\netcoreapp2.0\s3d2t1.runtimeconfig.json
+C:\Users\FIC\Desktop\FabioF\3a semana\s3d2t1\bin\Debug\netcoreapp2.0\s3d2t1.runtimeconfig.dev.json
+C:\Users\FIC\Desktop\FabioF\3a semana\s3d2t1\bin\Debug\netcoreapp2.0\s3d2t1.dll
+C:\Users\FIC\Desktop\FabioF\3a semana\s3d2t1\bin\Debug\netcoreapp2.0\s3d2t1.pdb
+C:\Users\FIC\Desktop\FabioF\3a semana\s3d2t1\obj\Debug\netcoreapp2.0\s3d2t1.dll
+C:\Users\FIC\Desktop\FabioF\3a semana\s3d2t1\obj\Debug\netcoreapp2.0\s3d2t1.pdb
