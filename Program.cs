@@ -4,15 +4,17 @@ namespace s3d2t1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void checagemcpf(string[] args)
         {
             Console.WriteLine("Digite seu CPF");
             string cpf = Console.ReadLine();
 
-            if(cpf.Length != 11){
+            if(cpf.Length != 11)
+            {
                 Console.WriteLine("CPF Inválido");
             }
-            else{
+            else
+            {
                 int[] multiplicador1 = new int[]{10,9,8,7,6,5,4,3,2};
                 int[] multiplicador2 = new int[]{11,10,9,8,7,6,5,4,3,2};
                 string cpf9, cpf10, cpfult2, digito, digito1, digito2;
@@ -20,16 +22,19 @@ namespace s3d2t1
                 cpf9 = cpf.Substring(0,9);
                 cpfult2 = cpf.Substring(9,2);
 
-                for(int i = 0; i < 9; i++){
+                for(int i = 0; i < 9; i++)
+                {
                     soma1 += Convert.ToInt16(cpf9[i].ToString()) * multiplicador1[i];                     
                 }
 
                 resto1 = soma1%11;
 
-                if(resto1 < 2){
+                if(resto1 < 2)
+                {
                     resto1 = 0;
                 }
-                else{
+                else
+                {
                     resto1 = 11 - resto1;
                 }
                 
@@ -37,28 +42,33 @@ namespace s3d2t1
                 cpf10 = cpf9 + digito1;
                               
                 
-                for(int i=0;i<10;i++){
+                for(int i=0;i<10;i++)
+                {
                     soma2 += Convert.ToInt32(cpf10[i].ToString()) * multiplicador2[i]; 
                 }
                 
                 resto2 = soma2%11;
 
-                if(resto2 < 2){
+                if(resto2 < 2)
+                {
                     resto2 = 0;
                 }
-                else{
+                else
+                {
                     resto2 = 11 - resto2;
                 }
 
                 digito2 = resto2.ToString();
                 digito = digito1 + digito2;
 
-                if(digito==cpfult2.ToString()){
+                if(digito==cpfult2.ToString())
+                {
                     Console.WriteLine("CPF Válido");
                 }
-                 else{
+                 else
+                {
                      Console.WriteLine("CPF Inválido");
-                     }
+                }
 
             }
         
