@@ -15,9 +15,10 @@ namespace s3d2t1
             else{
                 int[] multiplicador1 = new int[]{10,9,8,7,6,5,4,3,2};
                 int[] multiplicador2 = new int[]{11,10,9,8,7,6,5,4,3,2};
-                string cpf9, cpf10, cpf11, digito1, digito2;
+                string cpf9, cpf10, cpfult2, digito, digito1, digito2;
                 int soma1=0, resto1=0, soma2=0, resto2=0;
                 cpf9 = cpf.Substring(0,9);
+                cpfult2 = cpf.Substring(9,2);
 
                 for(int i = 0; i < 9; i++){
                     soma1 += Convert.ToInt16(cpf9[i].ToString()) * multiplicador1[i];                     
@@ -50,14 +51,14 @@ namespace s3d2t1
                 }
 
                 digito2 = resto2.ToString();
-                cpf11 = cpf10 + digito2;
+                digito = digito1 + digito2;
 
-                if(cpf11==cpf){
+                if(digito==cpfult2.ToString()){
                     Console.WriteLine("CPF Válido");
                 }
                  else{
                      Console.WriteLine("CPF Inválido");
-                      }
+                     }
 
             }
         
