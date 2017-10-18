@@ -57,8 +57,6 @@ namespace s3d2t1
                 }
                  else{
                      Console.WriteLine("CPF Inválido");
-                     Console.WriteLine(cpf11);
-                     Console.WriteLine(cpf10);
                       }
 
             }
